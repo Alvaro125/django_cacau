@@ -1,0 +1,14 @@
+{
+  "name": "django_cacau",
+  "version": "1.0.0",
+  "description": "REST API DJANGO SCHEDULE",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python manage.py runserver",
+    "test": "python manage.py test",
+    "makedb": "python manage.py makemigrations accounts profiles cvitae",
+    "migrate": "python manage.py migrate"
+  },
+  "author": "",
+  "license": "ISC"
+}
